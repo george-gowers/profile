@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url(responsive.css);
+
+body {
+  background-color: rgb(243, 243, 243);
+  font-size: medium;
+}
+
+h1 {
+  color: rgb(48, 63, 41);
+  sans-font-family: 'Outfit', sans-serif;;
+  font-size: 34px;
+  line-height: 56px;
+  padding-top: 36px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+p {
+  font-size: large;
+  font-family: 'Lora', serif;
+  margin-bottom: 36px;
+}
+
+a:hover {
+  color: rgb(26, 26, 248);
+}
+
+
+h2 {
+    color: #7ECE90;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+li {
+  font-size: large;
+  color: rgb(122, 58, 122);
+}
+
+li:hover {
+  color:rgb(7, 6, 7);
+}
+
+
+
+.card-white {
+  background-color: white;
+  margin: 24px auto;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  padding: 24px;
+  width: 40%;
+}
+
+.img-circle {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 12px 24px;
+  margin-top: 100px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  color: white;
+  background-color: #1f2acf;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.list-inline li a {
+  font-size: 48px;
+  margin: 0px 24px;
+}
+
+#big-card {
+  padding-top: 1px;
+  padding-bottom: 50px;
+}
